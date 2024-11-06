@@ -12,14 +12,14 @@
 	<artifactId>appdependecy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>appdependecy</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo library project for Spring Boot</description>
 	<properties>
 		<java.version>15</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
 		</dependency>
 
 		<dependency>
