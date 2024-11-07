@@ -30,3 +30,9 @@ If you use the spring-boot-starter-test ‘Starter’ (in the test scope), you w
 - Mockito — A Java mocking framework.
 - JSONassert — An assertion library for JSON.
 - JsonPath — XPath for JSON.
+
+### Code Coverage
+Configured JaCoCo in these projects.
+The JaCoCo Maven plug-in provides the JaCoCo runtime agent to your tests and allows basic report creation.
+
+In simple terms, code coverage means measuring the percentage of lines of code that are executed during automated tests. For example, if you have a method containing 100 lines of code and you are writing a test case for it, code coverage tells you briefly how many of those lines were actively exercised by the test.
