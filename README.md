@@ -1,5 +1,5 @@
 # Two Spring Boot applications using a shared library
-This repository shows you how to create a multi-module project with Spring Boot.
+This repository shows you how to create a library project with Spring Boot.
 
 The project will have a library jar and two main applications that uses the library. You could also use it to see how to build a library (that is, a jar file that is not an application) on its own.
 

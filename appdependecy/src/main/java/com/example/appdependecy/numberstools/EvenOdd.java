@@ -1,4 +1,4 @@
-package com.example.appdependecy.numbers;
+package com.example.appdependecy.numberstools;
 
 import org.springframework.stereotype.Component;
 
