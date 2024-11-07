@@ -1,6 +1,6 @@
 package com.example.projeto1;
 
-import com.example.appdependecy.numbers.EvenOdd;
+import com.example.appdependecy.numberstools.EvenOdd;
 
 public class NumberResponse {
 
