@@ -1,5 +1,6 @@
 package com.example.appdendency.algorithms;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
@@ -21,6 +22,12 @@ public class BinarySearchTests {
 		unsortedArray = new int[] { 3, 2, 1, 4 };
 	}
 
+	@Test
+	void testBinarySearchIsInstantiable() {
+		BinarySearch binarySearch = new BinarySearch();
+		assertThat(binarySearch).isNotNull();
+	}
+	
 	@Test
 	void testBinarySearchUnsortedArrayNotFound() {
 		assertEquals(-1, BinarySearch.binarySearch(unsortedArray, 0));
