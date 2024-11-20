@@ -7,7 +7,7 @@ The project will have a library jar and two main applications that uses the libr
 
 
 - Library project appdependency 
-It has Even or Odd validation and a Binary Search algorithm to use
+  - It has Even or Odd validation and a Binary Search algorithm to use
 
 - Projeto1 application runs at 8081 and uses appdependency implementations
 
